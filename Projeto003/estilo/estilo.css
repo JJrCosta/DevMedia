@@ -1,0 +1,91 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.container
+{
+    margin: auto 245px;
+    text-align: center;
+}
+.cabecalho img
+{
+    width: 150px;
+}
+.cabecalho .menu
+{
+    margin: 20px;
+}
+.cabecalho .menu a
+{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #de8e37;
+    padding: 10px 20px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    color: black;
+}
+.cabecalho .menu a:hover
+{
+    background-color: rgba(255, 165, 0, 0.7);
+}
+.secao-sobre
+{
+    margin: 20px 0px;
+}
+.secao-sobre .titulo
+{
+    border-top: 1px solid #de8e37;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.secao-sobre .subtitulo
+{
+    font-size: 20px;
+    font-weight: normal;
+    color: o#de8e37;
+    margin-bottom: 20px;
+}
+.imagem-banner
+{
+    max-width: 700px;
+}
+.secao-produtos
+{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    color: #efefef;
+    background-color: #de8e37;
+    padding: 0px 150px;
+    margin-bottom: 20px;
+}
+.secao-produtos h3.subtitulo
+{
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.secao-produtos img
+{
+    width: 400px;
+    margin: 15px
+}
+.secao-produtos .subtitulo
+{
+    padding-bottom: 20px;
+}
+.secao-contatos .subtitulo
+{
+    margin-bottom: 20px;
+}
+.secao-contatos span
+{
+    font-weight: bold;
+}
