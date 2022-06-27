@@ -50,7 +50,7 @@
 {
     font-size: 20px;
     font-weight: normal;
-    color: o#de8e37;
+    color: #de8e37;
     margin-bottom: 20px;
 }
 .imagem-banner
@@ -88,4 +88,39 @@
 .secao-contatos span
 {
     font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin: 87px;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        margin: 34px;
+    }
+    .secao-sobre img {
+        width: 700px
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        margin: 5px auto;
+    }
+    .cabecalho .menu {
+        margin: 0px;
+    }
+    .cabecalho .menu a {
+        margin-left: 5px;
+    }
+    .secao-sobre img {
+        width: 320px
+    }
+    .secao-produtos {
+        padding: 5px;
+    }
+    .secao-produtos img {
+        width: 300px;
+        margin: 15px 0px;
+    }
 }
